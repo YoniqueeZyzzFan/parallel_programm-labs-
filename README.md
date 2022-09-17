@@ -3,6 +3,11 @@
 INSTALLATION
 ------------
 Info for files:
+      Data.txt              all values from two matrices
+      Matrix.txt           result matrix
+      Result.txt           time for different matrices sizes
+      main.cpp             obviously
+      main.py              correctness check
 
 <h3 align="left">Data.txt - all values from two matrices</h3>
 <h3 aligh="left">Matrix.txt - result matrix </h3>

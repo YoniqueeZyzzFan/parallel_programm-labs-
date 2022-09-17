@@ -7,4 +7,4 @@ Info for files:
 -  Result.txt           time for different matrices sizes
 -  main.cpp             obviously
 -  main.py              correctness check
-###### Lab1: matrix product, and subsequent improvement in the form of parallel streams. Looking at file Result.txt we can say that the time directly depends on the size of the matrices, so for better time we can use parallel programming, which i'll use in next branches of this rep
+###### Lab1: matrix product, and subsequent improvement in the form of parallel streams. Looking at file Result.txt we can say that the time directly depends on the size of the matrices, so for better time we can use parallel programming, which i'll show in the next branches of this rep

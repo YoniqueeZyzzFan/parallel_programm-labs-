@@ -9,7 +9,7 @@ Info for files:
 -  main.py              - correctness check
 
 ##### About main.cpp: I represented matrices as arrays and used a formula to get the elements from the desired rows or columns (see code).
-####Matrix's size is: 100
+Matrix's size is: 100
 Def meth's time: 15.0113
 _______________________________
 Matrix's size is: 200

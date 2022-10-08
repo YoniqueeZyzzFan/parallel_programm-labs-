@@ -21,6 +21,6 @@ _______________________________
 Matrix's size is: 400
 Def meth's time: 936.371
 _______________________________
-![] (https://github.com/YoniqueeZyzzFan/parallel_programm-labs-/graph.png)
+![alt text] (https://github.com/YoniqueeZyzzFan/parallel_programm-labs-/graph.png)
 
 ###### Lab1: matrix product, and subsequent improvement in the form of parallel streams. Looking at file Result.txt we can say that the time directly depends on the size of the matrices, so for better time we can use parallel programming, which i'll show in the next branches of this rep

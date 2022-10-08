@@ -15,16 +15,17 @@ void print(std::vector<int>& v) {
 	}
 }
 int main() {
-	std::vector<int> matrix1(400*400);
-	std::vector<int> matrix2(400*400);
-	std::vector<int> result1(400*400);
+	som = 400;
+	std::vector<int> matrix1(som*som);
+	std::vector<int> matrix2(som*som);
+	std::vector<int> result1(som*som);
 	std::ifstream data("Data.txt");
-	/*for (int i = 0; i < 400*400; i++) {
+	/*for (int i = 0; i < som*som; i++) {
 		matrix1[i] = (rand() % 100 + 5);
 		matrix2[i] = (rand() % 100 - i - 15);
 	}
 	std::ofstream data("Data.txt");
-	for (int i = 0; i < 400*400; i++) {
+	for (int i = 0; i < som*som; i++) {
 		data << matrix1[i] << " " << matrix2[i] << " ";
 	}
 	data.close();*/
@@ -74,7 +75,7 @@ int main() {
 	}
 	file.close();
 	std::ofstream matrix("Matrix.txt");
-	for (int i = 0; i < 400*400; ++i) {
+	for (int i = 0; i < som*som; ++i) {
 		matrix << result1[i] <<" ";
 	}
 	matrix.close();

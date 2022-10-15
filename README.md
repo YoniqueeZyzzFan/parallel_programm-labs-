@@ -48,9 +48,9 @@ _______________________________
 #### As we can see - the execution time with parallel calculations is much lower than standard execution.
 #### Runtime ration:
 With omp / Without </br>
-Size = 100 - 1,85 </br>
-Size = 200 - 0,25 </br> 
-Size = 300 - 0,24 </br> 
-Size = 400 - 0,25 </br>
-Size = 800 - 0,25 </br>
+Size = 100 it's 1,85 </br>
+Size = 200 it's 0,25 </br> 
+Size = 300 it's 0,24 </br> 
+Size = 400 it's 0,25 </br>
+Size = 800 it's 0,25 </br>
 ###### Lab2: Compare parallel execution and standard execution

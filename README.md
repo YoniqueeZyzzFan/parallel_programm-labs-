@@ -11,17 +11,20 @@ Info for files:
 ##### About main.cpp: I represented matrices as arrays and used a formula to get the elements from the desired rows or columns (see code).
 ### Time without
 Matrix's size is: 100
-Def meth's time: 15.0113
+Def meth's time: 14.3727
 _______________________________
 Matrix's size is: 200
-Def meth's time: 117.037
+Def meth's time: 113.989
 _______________________________
 Matrix's size is: 300
-Def meth's time: 396.682
+Def meth's time: 387.619
 _______________________________
 Matrix's size is: 400
-Def meth's time: 936.371
-_______________________________ 
+Def meth's time: 889.16
+_______________________________
+Matrix's size is: 800
+Def meth's time: 7246.96
+_______________________________
 ![](without_omp.png)
 
 ### Time with omp
@@ -41,4 +44,6 @@ Matrix's size is: 800
 Def meth's time: 1823.44
 _______________________________
 ![](without_omp.png)
+
+#### As we can see - the execution time with parallel calculations is much lower than default method. 
 ###### Lab1: matrix product, and subsequent improvement in the form of parallel streams. Looking at file Result.txt we can say that the time directly depends on the size of the matrices, so for better time we can use parallel programming, which i'll show in the next branches of this rep

@@ -72,5 +72,5 @@ _______________________________
 | 400 | 8   |   252.591 |
 | 800 | 8   |   2189.79 |
 
-Testing on Intel Core i5-3470 with 4 threads. If i increase number of threads >4 i didnt get any improve in execution time.
+Testing on Intel Core i5-3470 with 4 threads. If you increase the number of threads more than 4, there will be no improvement, the time will only grow.
 ###### Lab2: Compare parallel execution and standard execution

@@ -7,6 +7,8 @@ Info for files:
 -  Time with omp.txt    - time for multiply with parallel
 -  main.cpp             - obviously
 -  main.py              - correctness check
+- comparing_threads.txt - create file below 
+- NumberOfThreadsDependence   - operating time with different number of threads
 
 ##### About main.cpp: I represented matrices as arrays and used a formula to get the elements from the desired rows or columns (see code).
 ### Time without

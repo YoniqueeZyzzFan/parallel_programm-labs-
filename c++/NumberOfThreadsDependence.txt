@@ -1,0 +1,121 @@
+
+Number of threads - 1
+Matrix's size is: 100
+Def meth's time: 15.5444
+_______________________________
+Number of threads - 1
+Matrix's size is: 200
+Def meth's time: 123.354
+_______________________________
+Number of threads - 1
+Matrix's size is: 300
+Def meth's time: 393.905
+_______________________________
+Number of threads - 1
+Matrix's size is: 400
+Def meth's time: 937.688
+_______________________________
+Number of threads - 1
+Matrix's size is: 800
+Def meth's time: 7648.12
+_______________________________
+Number of threads - 2
+Matrix's size is: 100
+Def meth's time: 8.98292
+_______________________________
+Number of threads - 2
+Matrix's size is: 200
+Def meth's time: 57.1192
+_______________________________
+Number of threads - 2
+Matrix's size is: 300
+Def meth's time: 193.331
+_______________________________
+Number of threads - 2
+Matrix's size is: 400
+Def meth's time: 456.33
+_______________________________
+Number of threads - 2
+Matrix's size is: 800
+Def meth's time: 3680.65
+_______________________________
+Number of threads - 3
+Matrix's size is: 100
+Def meth's time: 6.51332
+_______________________________
+Number of threads - 3
+Matrix's size is: 200
+Def meth's time: 40.0835
+_______________________________
+Number of threads - 3
+Matrix's size is: 300
+Def meth's time: 132.482
+_______________________________
+Number of threads - 3
+Matrix's size is: 400
+Def meth's time: 315.23
+_______________________________
+Number of threads - 3
+Matrix's size is: 800
+Def meth's time: 2565.58
+_______________________________
+Number of threads - 4
+Matrix's size is: 100
+Def meth's time: 5.93249
+_______________________________
+Number of threads - 4
+Matrix's size is: 200
+Def meth's time: 32.6166
+_______________________________
+Number of threads - 4
+Matrix's size is: 300
+Def meth's time: 99.2775
+_______________________________
+Number of threads - 4
+Matrix's size is: 400
+Def meth's time: 234.568
+_______________________________
+Number of threads - 4
+Matrix's size is: 800
+Def meth's time: 1916.37
+_______________________________
+Number of threads - 8
+Matrix's size is: 100
+Def meth's time: 8.04383
+_______________________________
+Number of threads - 8
+Matrix's size is: 200
+Def meth's time: 33.2812
+_______________________________
+Number of threads - 8
+Matrix's size is: 300
+Def meth's time: 105.63
+_______________________________
+Number of threads - 8
+Matrix's size is: 400
+Def meth's time: 252.591
+_______________________________
+Number of threads - 8
+Matrix's size is: 800
+Def meth's time: 2189.79
+_______________________________
+Number of threads - 16
+Matrix's size is: 100
+Def meth's time: 12.1062
+_______________________________
+Number of threads - 16
+Matrix's size is: 200
+Def meth's time: 29.8985
+_______________________________
+Number of threads - 16
+Matrix's size is: 300
+Def meth's time: 100.374
+_______________________________
+Number of threads - 16
+Matrix's size is: 400
+Def meth's time: 233.469
+_______________________________
+Number of threads - 16
+Matrix's size is: 800
+Def meth's time: 1967.49
+_______________________________

@@ -45,5 +45,5 @@ Def meth's time: 1823.44
 _______________________________
 ![](without_omp.png)
 
-#### As we can see - the execution time with parallel calculations is much lower than default method. 
-###### Lab2: Compare parallel execution and default method
+#### As we can see - the execution time with parallel calculations is much lower than standard execution. 
+###### Lab2: Compare parallel execution and standard execution

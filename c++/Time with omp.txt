@@ -1,0 +1,16 @@
+
+Matrix's size is: 100
+Def meth's time: 26.6091
+_______________________________
+Matrix's size is: 200
+Def meth's time: 28.5437
+_______________________________
+Matrix's size is: 300
+Def meth's time: 96.3207
+_______________________________
+Matrix's size is: 400
+Def meth's time: 224.973
+_______________________________
+Matrix's size is: 800
+Def meth's time: 1823.44
+_______________________________

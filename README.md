@@ -22,7 +22,7 @@ _______________________________
 Matrix's size is: 400
 Def meth's time: 936.371
 _______________________________ 
-![](graph.png)
+![](without_omp.png)
 
 ### Time with omp
 Matrix's size is: 100
@@ -40,4 +40,5 @@ _______________________________
 Matrix's size is: 800
 Def meth's time: 1823.44
 _______________________________
+![](without_omp.png)
 ###### Lab1: matrix product, and subsequent improvement in the form of parallel streams. Looking at file Result.txt we can say that the time directly depends on the size of the matrices, so for better time we can use parallel programming, which i'll show in the next branches of this rep

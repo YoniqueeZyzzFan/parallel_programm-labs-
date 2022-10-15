@@ -45,5 +45,13 @@ Def meth's time: 1823.44
 _______________________________
 ![](without_omp.png)
 
-#### As we can see - the execution time with parallel calculations is much lower than standard execution. 
+#### As we can see - the execution time with parallel calculations is much lower than standard execution.
+##### For example:
+Runtime ration:
+With omp / Without
+Size = 100 - 1,85
+Size = 200 - 0,25
+Size = 300 - 0,24
+Size = 400 - 0,25
+Size = 800 - 0,25
 ###### Lab2: Compare parallel execution and standard execution

@@ -46,4 +46,4 @@ _______________________________
 ![](without_omp.png)
 
 #### As we can see - the execution time with parallel calculations is much lower than default method. 
-###### Lab1: matrix product, and subsequent improvement in the form of parallel streams. Looking at file Result.txt we can say that the time directly depends on the size of the matrices, so for better time we can use parallel programming, which i'll show in the next branches of this rep
+###### Lab2: Compare parallel execution and default method

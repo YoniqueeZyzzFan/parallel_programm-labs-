@@ -49,28 +49,12 @@ _______________________________
 
 #### As we can see - the execution time with parallel calculations is much lower than standard execution.
 #### Comparing number of threads:
-| Size       | Number of threads        | Time |
-| ------------- |:------------------:| -----:|
-| 100    | 2   | 8.98 |
-| 200     | 2 |   57.11 |
-| 300 | 2    |   193.331 |
-| 400 | 2    |   456.33 |
-| 800 | 2    |   3680.65 |
-| 100 | 3   |   6.51 |
-| 200 | 3    |   40.0835 |
-| 300 | 3    |   132.482|
-| 400 | 3    |   315.23 |
-| 800 | 3    |   2565.58 |
-| 100 | 4    |   5.93 |
-| 200 | 4    |   32.6166 |
-| 300 | 4    |   99.2775 |
-| 400 | 4    |   234.568 |
-| 800 | 4    |   1916.37 |
-| 100 | 8   |   8.04 |
-| 200 | 8   |   33.28 |
-| 300 | 8   |   105.63 |
-| 400 | 8   |   252.591 |
-| 800 | 8   |   2189.79 |
+|Number of threads        | Time(size 100) | Time(size 200) | Time(size 300) | Time(size 400) | Time(size 800) |
+|------------------:| -----:| -----:| -----:| -----:| -----:|
+| 2   | 8.98 | 57.11 | 193.33 | 456.33 | 3680.65 |
+| 3   |   6.51 | 40.08 | 132.48 | 315.23 | 2565.58|
+| 4   |   5.93 | 32.61 | 99.27 | 234.56 | 1916.37 |
+|8   |   8.04 | 33.28 | 105.63 | 252.59 | 2189.79|
 
 Testing on Intel Core i5-3470 with 4 threads. If you increase the number of threads more than 4, there will be no improvement, the time will only grow.
 ###### Lab2: Compare parallel execution and standard execution

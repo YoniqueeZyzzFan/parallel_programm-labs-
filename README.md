@@ -3,7 +3,7 @@ About lab
 ------------
 Info for files:
 -  Data.txt              - all values from two matrices
--  main.cpp             - obviously
+-  main.cpp / result.txt            - obviously
 -  main.py              - correctness check
 
 ##### About main.cpp: I represented matrices as arrays and used a formula to get the elements from the desired rows or columns (see code).

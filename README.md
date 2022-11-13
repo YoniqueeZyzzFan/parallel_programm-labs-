@@ -41,7 +41,7 @@ _______________________________
 Matrix's size is: 800
 Def meth's time: 0.357662
 _______________________________
-![](without_omp.png)
+![](with_mpi.png)
 
 #### As we can see - the execution time with parallel calculations is much lower than standard execution.
 #### Comparing number of threads:

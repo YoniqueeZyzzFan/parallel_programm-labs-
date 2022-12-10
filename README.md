@@ -1,55 +1,34 @@
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=Lab+3)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=Lab+4)](https://git.io/typing-svg)
 About lab
 ------------
 Info for files:
--  Data.txt              - all values from two matrices
--  main.cpp / result.txt            - obviously
--  main.py              - correctness check
+-  mainGpu.h              - main
+-  matMulGPU.cu  -  multiplication
 
-##### About main.cpp: I represented matrices as arrays and used a formula to get the elements from the desired rows or columns (see code).
-### Time without
+### Time with CUDA (block size = 10)
 Matrix's size is: 100
-Def meth's time: 14.3727
+Def meth's time: 0.06 ms
 _______________________________
 Matrix's size is: 200
-Def meth's time: 113.989
+Def meth's time: 0.17 ms
 _______________________________
 Matrix's size is: 300
-Def meth's time: 387.619
+Def meth's time: 0.40 ms
 _______________________________
 Matrix's size is: 400
-Def meth's time: 889.16
+Def meth's time: 0.95 ms
 _______________________________
 Matrix's size is: 800
-Def meth's time: 7246.96
+Def meth's time: 9.33 ms
 _______________________________
-![](without_mpi.png)
-
-### Time with MPI (number of thr. 4)
-Matrix's size is: 100
-Def meth's time: 0.0004851
-_______________________________
-Matrix's size is: 200
-Def meth's time: 0.0075258
-_______________________________
-Matrix's size is: 300
-Def meth's time: 0.0139271
-_______________________________
-Matrix's size is: 400
-Def meth's time: 0.044882
-_______________________________
-Matrix's size is: 800
-Def meth's time: 0.357662
-_______________________________
-![](with_mpi.png)
+![](cuda.png)
 
 #### As we can see - the execution time with parallel calculations is much lower than standard execution.
 #### Comparing number of threads:
-|Number of threads        | Time(size 100) | Time(size 200) | Time(size 300) | Time(size 400) | Time(size 800) |
+|Block size        | Time(size 100) | Time(size 200) | Time(size 300) | Time(size 400) | Time(size 800) |
 |------------------:| -----:| -----:| -----:| -----:| -----:|
-| 2   | 0.0009487 | 0.0104299 | 0.0300095 | 0.0607942 | 0.481196 |
-| 4   |   0.0006925 | 0.0038242 | 0.0155607 | 0.0338696 | 0.358806 |
-|8   |    0.0002288 |  0.0018791 | 0.0076221 | 0.0235641 | 0.379881|
+| 5   |   0.06 ms | 0.19 ms | 0.65 ms | 1.52 ms | 15.79 ms |
+| 10   |   0.06 ms | 0.17 ms | 0.40 ms | 0.95 ms |9.33 ms|
+| 25   | 0.08 ms | 0.14 ms | 0.33 ms | 0.74 ms | 6.67 ms |
 
-Testing on Intel Core i5-7400.
-###### Lab3: Compare parallel execution and standard execution
+Testing on gtx 1060.

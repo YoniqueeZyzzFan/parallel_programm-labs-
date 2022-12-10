@@ -32,3 +32,11 @@ _______________________________
 | 25   | 0.08 ms | 0.14 ms | 0.33 ms | 0.74 ms | 6.67 ms |
 
 Testing on gtx 1060.
+
+#####Conclusion:
+###### Block_size represents number of threads = > we are getting better performance when increasing block_size. 
+###### Keep in mind - gtx 1060 has a limit blocks_size (lower than 100)
+###### Each block cannot have more than 512/1024 threads in total
+###### The maximum dimensions of each block are limited to [512,512,64]/[1024,1024,64]
+###### Each block cannot consume more than 8k/16k/32k/64k/32k/64k/32k/64k/32k/64k registers total
+###### Each block cannot consume more than 16kb/48kb/96kb of shared memory

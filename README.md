@@ -23,7 +23,7 @@ Def meth's time: 9.33 ms
 _______________________________
 ![](cuda.png)
 
-#### As we can see - the execution time with parallel calculations is much lower than standard execution.
+#### Size - number of columns (n.columns = n.rows)
 #### Comparing number of threads:
 |Block size        | Time(size 100) | Time(size 200) | Time(size 300) | Time(size 400) | Time(size 800) |
 |------------------:| -----:| -----:| -----:| -----:| -----:|

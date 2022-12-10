@@ -34,7 +34,7 @@ _______________________________
 Testing on gtx 1060.
 
 ##### Conclusion:
-###### Block_size represents number of threads = > we are getting better performance when increasing block_size. 
+###### Block_size represents number of threads = > we get better performance by increasing the block size 
 ###### Keep in mind - gtx 1060 has a limit blocks_size (lower than 100)
 ###### Each block cannot have more than 512/1024 threads in total
 ###### The maximum dimensions of each block are limited to [512,512,64]/[1024,1024,64]
